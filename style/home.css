@@ -1,0 +1,57 @@
+.den__title {
+  display: flex;
+  justify-content: left;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+.den__text {
+  display: flex;
+  justify-content: right;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  background-color: white;
+	font-weight: 500;
+	font-family: "Gilroy", sans-serif;
+}
+.den__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.Skills {
+	height: 610px;
+}
+
+.skills__title{
+	margin: 91px 0 70px 0;
+	font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+text-align: center;
+}
+h4{
+	font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+text-align: center;
+}
+
+
+.skills__box {
+	font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+	display: flex;
+
+}
+.skills__prog {
+	width: 25%;
+
+}

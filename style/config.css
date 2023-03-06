@@ -1,0 +1,52 @@
+body{
+	font-family: 'Gilroy', sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+header, footer, main, section{
+	max-width: 1445px;
+	margin: 0 auto;
+}
+.container{
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+h1,h2,p{
+	margin: 0;
+	padding: 0;
+}
+
+.aboutme{
+	background: #F6F6F6;
+
+	text-align: center;
+	}
+
+.aboutme__title {
+			font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+
+	.aboutme__content {
+		box-sizing: border-box;
+		padding: 120px 0 107px 0;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		max-width: 520px;
+		height: 506px;
+	}
+	.aboutme__text {
+		display: inline-block;
+		font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+
+	}
