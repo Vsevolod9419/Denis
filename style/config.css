@@ -48,5 +48,36 @@ color: #070707;
 line-height: 22px;
 text-align: center;
 color: #070707;
+	}
 
+	.portfolio{
+		width: 1445px;
+height: 2253px;
+background: #F6F6F6;
+text-align: center;
+	}
+
+	.portfolio_title{
+		font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+padding: 113px 0 47px 0;
+	}
+
+.portfolio_text{
+		font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+margin: 43px 0 99px 0;
+	}
+
+	.portfolio_link{
+		font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
 	}
