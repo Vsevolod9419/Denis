@@ -81,3 +81,27 @@ text-align: center;
 text-decoration-line: underline;
 color: #070707;
 	}
+	
+
+	.contacts{
+		margin: 115px 0 20px 0;
+		font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+	}
+	.contacts_text {
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+	}
+	.sendmes{
+		box-sizing: border-box;
+		background-color: black;
+		text-decoration: none;
+		font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: white;
+	}
