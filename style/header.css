@@ -13,6 +13,10 @@ header{
 	padding: 33px 0;
 }
 
+.burger{
+	display: none;
+}
+
 .nav__item a{
 	text-decoration: none;
 	font-size: 18px;
@@ -24,3 +28,18 @@ color: #828282;
 color: black;
 border-bottom: 1px solid black;
 }
+/* начало адаптива */
+
+@media (width <= 768px){
+	.nav__list{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+}
+
+
+
+
+

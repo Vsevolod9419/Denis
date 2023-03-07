@@ -8,8 +8,10 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header style="display: none">
       <nav class="navigation">
+        <img class="burger" src="img/burg.svg" alt="" />
+
         <ul class="nav__list">
           <li class="nav__item"><a href="#">Home</a></li>
           <li class="nav__item"><a href="#">About me</a></li>
@@ -21,146 +23,127 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero container">
-          <div class="den__content">
-            <h1 class="den__title">
-              Denis <br />
-              Novik
-            </h1>
-            <p class="den__text">
-              UX | UI designer24 <br />
-              ears old, Minsk
+      <section class="hero" style="display: none">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Denis Novik</h1>
+            <p class="hero__text">
+              UX | UI designer <br />
+              24 years old, Minsk
             </p>
           </div>
-          <img src="img/mobile.jpg" alt="" />
+          <picture>
+            <source media="(max-width:426px)" srcset="./img/denis-mobile.jpg" />
+            <img class="hero_web" src="img/desctop.jpg" />
+          </picture>
         </div>
       </section>
 
-      <section class="aboutme">
-        <div class="aboutme__content">
+      <section class="aboutme" style="display: none">
+        <div class="container">
           <h3 class="aboutme__title">About me</h3>
           <p class="aboutme__text">
-            Hi, I'm Denis – UX/UI designer from Minsk.<br />
-            I'm interested in design and everything connected with it.
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it.
           </p>
           <p class="aboutme__text">
             I'm studying at courses "Web and mobile design<br />
             interfaces" in IT-Academy.
           </p>
           <p class="aboutme__text">
-            Ready to implement excellent projects<br />
-            with wonderful people.
+            Ready to implement excellent projects with wonderful people.
           </p>
         </div>
       </section>
 
-      <section class="Skills">
-        <div>
+      <section class="skills">
+        <div class="container">
           <h2 class="skills__title">Skills</h2>
-          <h4>I work in such programs as</h4>
-        </div>
+          <p class="skills__text">I work in such programs as</p>
 
-        <div class="skills__box container">
-          <div class="skills__prog">
-            <img src="img/ps.svg" alt="Ps" />
-            <p>
-              Adobe<br />
-              Photoshop
-            </p>
-            <div class="image">
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star (1).svg" alt="" />
+          <div class="skills__box">
+            <div class="skills__prog">
+              <img src="img/ps.svg" alt="Ps" />
+              <p>
+                Adobe Photoshop
+              </p>
+              <div class="skills__rate">
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star (1).svg" alt="" />
+              </div>
             </div>
-          </div>
 
-          <div class="skills__prog">
-            <img src="img/ai.svg" alt="Ps" />
-            <p>
-              Adobe<br />
-              Illustrator
-            </p>
-            <div class="image">
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star (1).svg" alt="" />
+            <div class="skills__prog">
+              <img src="img/ai.svg" alt="Ps" />
+              <p>
+                Adobe Illustrator
+              </p>
+              <div class="skills__rate">
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star (1).svg" alt="" />
+              </div>
             </div>
-          </div>
-          <div class="skills__prog">
-            <img src="img/ae.svg" alt="Ps" />
-            <p>
-              Adobe<br />
-              After Effects
-            </p>
-            <div class="image">
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star (1).svg" alt="" />
-              <img src="img/Star (1).svg" alt="" />
+            <div class="skills__prog">
+              <img src="img/ae.svg" alt="Ps" />
+              <p>
+                Adobe After Effects
+              </p>
+              <div class="skills__rate">
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star (1).svg" alt="" />
+                <img src="img/Star (1).svg" alt="" />
+              </div>
             </div>
-          </div>
 
-          <div class="skills__prog">
-            <img src="img/figma.svg" alt="Ps" />
-            <p>Figma</p>
-            <p>&nbsp</p>
-            <div class="image">
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star.svg" alt="" />
-              <img src="img/Star (1).svg" alt="" />
+            <div class="skills__prog">
+              <img src="img/figma.svg" alt="Ps" />
+              <p class="figma">Figma</p>
+              <div class="skills__rate">
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star.svg" alt="" />
+                <img src="img/Star (1).svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-
-
-
-
-      <section class="portfolio">
+      <section class="portfolio" style="display: none">
         <h3 class="portfolio_title">Portfolio</h3>
-        <img src="img/слой8.png" alt="por1">
+        <img src="img/слой8.png" alt="por1" />
         <p class="portfolio_text">
           <a href="#" class="portfolio_link">
             Online fashion store - Homepage
           </a>
         </p>
-        <img src="img/reebok.png" alt="reebok">
+        <img src="img/reebok.png" alt="reebok" />
         <p class="portfolio_text">
-          <a href="#" class="portfolio_link">
-            Reebok Store - Concept
-          </a>
+          <a href="#" class="portfolio_link"> Reebok Store - Concept </a>
         </p>
 
-        <img src="img/broun.png" alt="reebok">
+        <img src="img/broun.png" alt="reebok" />
         <p class="portfolio_text">
-          <a href="#" class="portfolio_link">
-            Braun Landing Page - Concept
-          </a>
+          <a href="#" class="portfolio_link"> Braun Landing Page - Concept </a>
         </p>
-
       </section>
     </main>
 
-    <footer>
-
-      <h3 class="contacts">
-        Contacts
-      </h3>
+    <footer style="display: none">
+      <h3 class="contacts">Contacts</h3>
       <p class="contacts_text">Want to know more or just</p>
-        <p class="contacts_text">You are welcome!</p>
+      <p class="contacts_text">You are welcome!</p>
 
-        <a href="" class="sendmes">Send message</a>
-
-
+      <a href="" class="sendmes">Send message</a>
     </footer>
   </body>
 </html>

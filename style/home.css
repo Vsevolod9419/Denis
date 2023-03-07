@@ -1,57 +1,188 @@
-.den__title {
-  display: flex;
-  justify-content: left;
-  font-size: 47.3392px;
-  line-height: 59px;
-  color: #070707;
-}
-.den__text {
-  display: flex;
-  justify-content: right;
-  font-size: 18px;
-  line-height: 22px;
-  color: #070707;
-  background-color: white;
-	font-weight: 500;
-	font-family: "Gilroy", sans-serif;
-}
-.den__content {
+.hero__content {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 30px;
 }
 
-.Skills {
-	height: 610px;
+.hero__title {
+  max-width: 124px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: left;
 }
 
-.skills__title{
-	margin: 91px 0 70px 0;
-	font-size: 34px;
-line-height: 42px;
-text-align: center;
-color: #070707;
-text-align: center;
-}
-h4{
-	font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #070707;
-text-align: center;
+.hero__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
 }
 
+.hero_web {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* адаптив дена */
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 65px 29px 83px;
+  }
+  .hero__content {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 37px;
+  }
+  .hero__title {
+    margin-bottom: 23px;
+  }
+}
+
+
+.skills {
+padding: 91px 0 110px;
+}
+
+.skills__title {
+  margin-bottom: 69px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.skills__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 84px;
+}
 
 .skills__box {
-	font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #828282;
-	display: flex;
-
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  display: flex;
 }
-.skills__prog {
-	width: 25%;
 
+.skills__prog img {
+ margin: 0 auto 24px;
+}
+
+.skills__prog p {
+  max-width: 79px;
+  margin: 0 auto 40px;
+}
+
+.skills__rate {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 0 9px; */
+  column-gap: 9px;
+}
+
+.figma{
+  height: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutme {
+  padding: 120px 0 107px;
+  background: #f6f6f6;
+}
+
+.aboutme__title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 18px;
+}
+
+.aboutme__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 485px;
+  margin: 0 auto;
+}
+
+.aboutme__text:nth-child(3){
+  margin: 43px auto;
+}
+
+/* адаптив aboutme */
+
+@media(max-width: 576px){
+  .aboutme{
+    padding: 81px 29px 76px;
+  }
+}
+
+.portfolio {
+  width: 1445px;
+  height: 2253px;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.portfolio_title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding: 113px 0 47px 0;
+}
+
+.portfolio_text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  margin: 43px 0 99px 0;
+}
+
+.portfolio_link {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+.contacts {
+  margin: 115px 0 20px 0;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.contacts_text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.sendmes {
+  box-sizing: border-box;
+  background-color: black;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
 }
