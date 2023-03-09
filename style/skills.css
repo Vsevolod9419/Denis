@@ -1,0 +1,66 @@
+
+.skills {
+	padding: 91px 0 110px;
+	}
+	
+	.skills__title {
+		margin-bottom: 69px;
+		font-size: 34px;
+		line-height: 42px;
+		text-align: center;
+	}
+	
+	.skills__text {
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		margin-bottom: 84px;
+	}
+	
+	.skills__box {
+		display: flex;
+		justify-content: space-between;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		color: #828282;
+		padding: 0 20px;
+	}
+	
+	.skills__prog img {
+	 margin: 0 auto 24px;
+	}
+	
+	.skills__prog p {
+		max-width: 79px;
+		margin: 0 auto 40px;
+	}
+	
+	.skills__rate {
+		display: flex;
+		justify-content: space-between;
+		/* gap: 0 9px; */
+		column-gap: 9px;
+	}
+	
+	.figma{
+		height: 34px;
+	}
+	
+	/* адаптив скилов */
+	@media (max-width: 768px){
+		.skills__box {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			font-size: 14px;
+			line-height: 17px;
+			text-align: center;
+			color: #828282;
+			padding: 0 20px;
+		}
+		.skills__prog {
+			padding: 0 40px;
+		}
+	
+	}
