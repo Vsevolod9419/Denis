@@ -162,6 +162,7 @@ padding: 91px 0 110px;
 .portfolio {
   background: #f6f6f6;
   text-align: center;
+  padding: 0 0 96px 0;
 }
 
 .portfolio_title {
@@ -185,8 +186,17 @@ padding: 91px 0 110px;
   color: #070707;
 }
 
+/* .portfolio__one { потом исправить отступы
+
+} */
+
+.portfolio__img{
+  width: 100%;
+}
+
+
 .contacts {
-  margin: 115px 0 20px 0;
+  margin: 0 0 20px 0;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
@@ -198,12 +208,44 @@ padding: 91px 0 110px;
   text-align: center;
   color: #070707;
 }
-.sendmes {
-  box-sizing: border-box;
+
+
+.send{
+  padding: 115px 0 123px 0;
+}
+
+.sendmes__link {
+  display: block;
   background-color: black;
   text-decoration: none;
   font-size: 18px;
   line-height: 22px;
-  text-align: center;
   color: white;
+  border-radius: 30px;
+  width: 123px;
+  padding: 14px 28px;
+  margin: 30px auto 0;
+}
+
+.shild {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 92px 0 46px;
+}
+.shild__img {
+  margin: 0 62px;
+  padding: 0 0 50px;
+}
+
+.fin{
+  white-space: pre-wrap;
+text-align: center;
+}
+
+/* адаптация фута */
+@media (max-width: 650px){
+    .shild__img{
+      margin: 0 110px;
+    }
 }
