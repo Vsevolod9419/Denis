@@ -62,11 +62,13 @@ padding: 91px 0 110px;
 }
 
 .skills__box {
+  display: flex;
+  justify-content: space-between;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: #828282;
-  display: flex;
+  padding: 0 20px;
 }
 
 .skills__prog img {
@@ -89,6 +91,23 @@ padding: 91px 0 110px;
   height: 34px;
 }
 
+/* адаптив скилов */
+@media (max-width: 768px){
+  .skills__box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding: 0 20px;
+  }
+  .skills__prog {
+    padding: 0 40px;
+  }
+
+}
 
 
 
@@ -132,9 +151,15 @@ padding: 91px 0 110px;
   }
 }
 
+
+
+
+
+
+
+
+
 .portfolio {
-  width: 1445px;
-  height: 2253px;
   background: #f6f6f6;
   text-align: center;
 }
@@ -148,11 +173,7 @@ padding: 91px 0 110px;
 }
 
 .portfolio_text {
-  font-size: 18px;
-  line-height: 22px;
   text-align: center;
-  text-decoration-line: underline;
-  color: #070707;
   margin: 43px 0 99px 0;
 }
 
